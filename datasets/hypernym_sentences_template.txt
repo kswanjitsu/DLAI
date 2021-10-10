@@ -1,0 +1,30 @@
+HYPONYM which is an example of HYPERNYM
+HYPONYM which is a class of HYPERNYM
+HYPONYM which is a kind of HYPERNYM
+HYPONYM and some other HYPERNYM
+HYPONYM and any other HYPERNYM
+HYPONYM or some other HYPERNYM
+HYPONYM or any other HYPERNYM
+HYPONYM which is called HYPERNYM
+HYPONYM a special case of HYPERNYM
+HYPONYM is an HYPERNYM that
+HYPONYM is a member of HYPERNYM
+HYPONYM is a part of HYPERNYM
+HYPONYM is a given HYPERNYM
+features of HYPERNYM such as HYPONYM, HYPONYM
+properties of HYPERNYM such as HYPONYM, HYPONYM
+Unlike most HYPERNYM, HYPONYM
+Unlike all HYPERNYM, HYPONYM
+Unlike any HYPERNYM, HYPONYM
+Unlike other HYPERNYM, HYPONYM
+Like most HYPERNYM, HYPONYM
+Like all HYPERNYM, HYPONYM
+Like any HYPERNYM, HYPONYM
+Like other HYPERNYM, HYPONYM
+HYPERNYM including HYPONYM, HYPONYM
+HYPONYM and other HYPERNYM  
+HYPONYM or other HYPERNYM 
+HYPERNYM such as HYPONYM 
+Such HYPERNYM as HYPONYM 
+HYPERNYM including HYPONYM
+HYPERNYM especially HYPONYM

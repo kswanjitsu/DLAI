@@ -1,0 +1,44 @@
+DEBUG: com.blazingdb.calcite.schema.BlazingSchema - getting table names
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - non optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  LogicalTableScan(table=[[main, mrconso]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - optimized
+BindableTableScan(table=[[main, mrconso]], aliases=[[CUI, LAT, TS, LUI, STT, SUI, ISPREF, AUI, SAUI, SCUI, SDUI, SAB, TTY, CODE, STR, SRL, SUPPRESS, CVF]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - non optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  LogicalFilter(condition=[=(CAST($0):INTEGER, 3002344)])
+    LogicalTableScan(table=[[main, mrconso]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  BindableTableScan(table=[[main, mrconso]], filters=[[=(CAST($0):INTEGER, 3002344)]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - non optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  LogicalFilter(condition=[=(CAST($0):INTEGER, 3002344)])
+    LogicalTableScan(table=[[main, mrconso]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  BindableTableScan(table=[[main, mrconso]], filters=[[=(CAST($0):INTEGER, 3002344)]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - non optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  LogicalFilter(condition=[=(CAST($0):INTEGER, 3002344)])
+    LogicalTableScan(table=[[main, mrconso]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  BindableTableScan(table=[[main, mrconso]], filters=[[=(CAST($0):INTEGER, 3002344)]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - non optimized
+LogicalProject(CUI=[$0], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  LogicalFilter(condition=[=($0, 'C0032344')])
+    LogicalTableScan(table=[[main, mrconso]])
+
+DEBUG: com.blazingdb.calcite.application.RelationalAlgebraGenerator - optimized
+LogicalProject(CUI=[CAST('C0032344':VARCHAR):VARCHAR], LAT=[$1], TS=[$2], LUI=[$3], STT=[$4], SUI=[$5], ISPREF=[$6], AUI=[$7], SAUI=[$8], SCUI=[$9], SDUI=[$10], SAB=[$11], TTY=[$12], CODE=[$13], STR=[$14], SRL=[$15], SUPPRESS=[$16], CVF=[$17])
+  BindableTableScan(table=[[main, mrconso]], filters=[[=($0, 'C0032344')]])
+

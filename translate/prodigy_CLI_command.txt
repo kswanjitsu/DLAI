@@ -1,0 +1,20 @@
+
+
+
+Command to build acronyms
+prodigy bert.ner.manual acab_NER "./datasets/dataset_parsed_all_mimic_test_notes.txt" --label "patient","physical therapy","posterior tibial","prothrombin time","partial thromboplastin time" --tokenizer-vocab "./my_local_vocab_files/vocab.txt" --lowercase --hide-wp-prefix -F "transformers_tokenizers.py"
+
+Command description
+prodigy [recipe] [output model name] [sentences to stream in to label]  --label ["entity names/types" this can be string on CLI, a csv ,or line delim file] --tokenizer-vocab [vocab for hugging face tokenizer] --lowercase --hide-wp-prefix -F [custom recipe for transformer NER]
+
+Expanded description of each CLI variable for the prodigy command
+--prodigy - invoke prodigy from CLI
+--recipe - tells prodigy that you are using a certain "recipe" specifically a NER model recipe w/ bert
+--output model name - once annotations are finished and you tell prodigy to format into "gold standard" training set, this will create a directory with this name to store the training data in and it will also be used to invoke the model in scripts in the pipeline, this will be the model's "name", acab_NER = acronyms abbreviation named entity recognition
+--sentences to stream in to label - this is pretty self explanatory, but this is the raw text file, line delimited, of clinical notes/sentences that we will label over top of in prodigy to create our gold standard dataset
+--label - these are the entity label types, it can be just a few words on the CLI, or you can feed it a csv file, or line delimited file of sentences
+--tokenizer vocab - this is only to be used if using transfer learning with BERT, we are you need to point to the BERT tokenizer vocab from hugging face
+**important note for the above, the vocab isn't installed with hugging face, and attached is a script (download_huggingface_tokenizers.py) that will install the BERT vocab
+--lowercase - this makes all sentences lowercase, important for standardizing, if relying on capitalization for a ML policy, that's bad NLP
+--hide-wp-prefix - this hides pre-fixes from hugging face tokenizer, called word piece, instead of tokenizing and creating word vectors word piece vectorizes pieces of words, this reduces the vocab size, a major limit in ML/neural networks, but does have some negatives compared to models that use full words as vocab, for our use this is fine
+--F - the file that contains the custom recipe invoked from CLI for bert.ner.manual annotation in prodigy

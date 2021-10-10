@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f17fb479-6bca-42d9-a0ec-650b1e49a9b0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1z09Uel8PWp1TU23i2EKvcMZWuW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datasets/UMLS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets/UMLS" />
+      <recent name="$PROJECT_DIR$/translate" />
+      <recent name="$PROJECT_DIR$/datasets/MIMIC" />
+      <recent name="$PROJECT_DIR$/build_corpus" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/corpus/UMLS_base" />
+      <recent name="$PROJECT_DIR$/corpus" />
+      <recent name="$PROJECT_DIR$/translate" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DLAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f17fb479-6bca-42d9-a0ec-650b1e49a9b0" name="Changes" comment="" />
+      <created>1633274154639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633274154639</updated>
+      <workItem from="1633274155821" duration="8029000" />
+      <workItem from="1633284745432" duration="2307000" />
+      <workItem from="1633292847340" duration="790000" />
+      <workItem from="1633293652830" duration="486000" />
+      <workItem from="1633294148901" duration="2721000" />
+      <workItem from="1633299278498" duration="3551000" />
+      <workItem from="1633304084156" duration="526000" />
+      <workItem from="1633304619973" duration="1057000" />
+      <workItem from="1633306035026" duration="1761000" />
+      <workItem from="1633309080773" duration="6252000" />
+      <workItem from="1633356721882" duration="3541000" />
+      <workItem from="1633388242499" duration="1477000" />
+      <workItem from="1633389730539" duration="525000" />
+      <workItem from="1633390266401" duration="267000" />
+      <workItem from="1633390543275" duration="757000" />
+      <workItem from="1633433231302" duration="389000" />
+      <workItem from="1633433718588" duration="12838000" />
+      <workItem from="1633521677855" duration="2336000" />
+      <workItem from="1633542897398" duration="2011000" />
+      <workItem from="1633544918278" duration="2851000" />
+      <workItem from="1633547783553" duration="1177000" />
+      <workItem from="1633563924288" duration="4772000" />
+      <workItem from="1633642655419" duration="437000" />
+      <workItem from="1633656362472" duration="2331000" />
+      <workItem from="1633785890532" duration="2098000" />
+      <workItem from="1633794353973" duration="302000" />
+      <workItem from="1633794666170" duration="4149000" />
+      <workItem from="1633798826034" duration="686000" />
+      <workItem from="1633799526024" duration="11909000" />
+      <workItem from="1633812748377" duration="4344000" />
+      <workItem from="1633818124708" duration="5066000" />
+      <workItem from="1633827867597" duration="1472000" />
+      <workItem from="1633872128734" duration="3091000" />
+      <workItem from="1633878004421" duration="1752000" />
+      <workItem from="1633887371966" duration="338000" />
+      <workItem from="1633887722494" duration="24000" />
+      <workItem from="1633887756453" duration="1550000" />
+      <workItem from="1633889393959" duration="142000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit master by Karl">
+      <created>1633276997073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633276997073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit master by Karl">
+      <created>1633277458381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633277458381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit master by Karl">
+      <created>1633278144550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633278144550</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit master by Karl">
+      <created>1633279526556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633279526556</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit master by Karl">
+      <created>1633874026602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633874026602</updated>
+    </task>
+    <task id="LOCAL-00006" summary="second commit master by Karl">
+      <created>1633874140432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633874140432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="second commit master by Karl">
+      <created>1633887391063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633887391063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="second commit master by Karl">
+      <created>1633887806048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633887806048</updated>
+    </task>
+    <task id="LOCAL-00009" summary="second commit master by Karl">
+      <created>1633888966849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633888966849</updated>
+    </task>
+    <task id="LOCAL-00010" summary="second commit master by Karl">
+      <created>1633889115228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633889115228</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit master by Karl" />
+    <MESSAGE value="second commit master by Karl" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit master by Karl" />
+  </component>
+</project>
